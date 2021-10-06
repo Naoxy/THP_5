@@ -7,5 +7,5 @@ n = floors
 
 0.upto(n) do |i|
     print " " * (floors - i)
-    puts "#" * (2 * i * 1)
+    puts "#" * (2 * i + 1)
 end 
