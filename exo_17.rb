@@ -6,6 +6,6 @@ puts "Voici la pyramide :"
 n = floors
 
 0.upto(n) do |i|
-    print (" " * (n - 1)) + ("#" * (i + i + i))
-    puts ""
+    print " " * (floors - i)
+    puts "#" * (2 * i * 1)
 end 
